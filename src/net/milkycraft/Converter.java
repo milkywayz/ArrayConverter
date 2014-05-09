@@ -37,7 +37,7 @@ public class Converter extends JavaPlugin {
 			json.write(out);
 			out.close();
 		} catch (Exception ex) {
-			System.err.println("Error: " + ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
@@ -71,8 +71,8 @@ public class Converter extends JavaPlugin {
 			}
 			json.write(out);
 			out.close();
-		} catch (IOException ex) {
-			System.err.println("Error: " + ex.getMessage());
+		} catch (Exception ex) {
+			ex.printStackTrace();
 		}
 		System.out.println("Finished writing " + recipes + " bukkit recipes");
 	}
