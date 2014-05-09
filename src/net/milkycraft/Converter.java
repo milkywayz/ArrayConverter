@@ -74,6 +74,6 @@ public class Converter extends JavaPlugin {
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
-		System.out.println("Finished writing " + recipes + " bukkit recipes");
+		this.getLogger().info("Finished writing " + recipes + " bukkit recipes");
 	}
 }
