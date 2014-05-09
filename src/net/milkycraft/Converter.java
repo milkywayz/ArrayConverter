@@ -2,7 +2,6 @@ package net.milkycraft;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
@@ -17,7 +16,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.json.JSONObject;
 
 public class Converter extends JavaPlugin {
-	int recipes = 0;
+	
+	private int recipes = 0;
 
 	@Override
 	public void onEnable() {
