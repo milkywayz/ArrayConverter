@@ -1,0 +1,4 @@
+name: MatConverter
+author: milkywayz 
+main: net.milkycraft.ArrayConverter.Converter
+version: 1.0
